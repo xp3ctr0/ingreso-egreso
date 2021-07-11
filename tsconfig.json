@@ -15,6 +15,7 @@
     "jsx": "react",
     "jsxFactory": "generateElement",
     "moduleResolution": "node",
+    "noImplicitAny": false,
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",

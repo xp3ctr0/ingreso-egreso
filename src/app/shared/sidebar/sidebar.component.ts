@@ -28,4 +28,5 @@ export class SidebarComponent implements OnInit {
       })
       .catch((err) => console.error(err));
   }
+
 }
