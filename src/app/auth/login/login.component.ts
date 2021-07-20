@@ -63,14 +63,14 @@ export class LoginComponent implements OnInit, OnDestroy {
         this.store.dispatch(uiActions.stopLoading());
         this.router.navigate(['/']);
       })
-      .catch(err => {        
+      .catch((err) => {
         this.store.dispatch(uiActions.stopLoading());
         Swal.fire({
           icon: 'error',
           title: 'Oops...',
           text: err.message,
           //footer: '<a href="">Why do I have this issue?</a>'
-        });        
+        });
       });
   }
 }
